@@ -11,13 +11,19 @@ import Foundation
 let pizzaIngredients = PizzaIngredients()
 print("Chapter 01 Examples")
 pizzaIngredients.printIngredients()
-print("\n")
 
 // Chapter 02 Examples
-let mathOperators = Operators()
 print("Chapter 02 Examples")
+print("\n")
+let mathOperators = Operators()
 mathOperators.printMathStatements()
 mathOperators.exerciseTwo()
 mathOperators.sharpenYourPencil()
 mathOperators.mutability()
 mathOperators.stringInterpolation()
+
+// Chapter 03 Examples
+print("Chapter 03 Examples")
+print("\n")
+let data = Data()
+data.printArrays()
