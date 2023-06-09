@@ -16,11 +16,16 @@ class Data {
     var pizzaProsciutto = "Prosciutto"
     var pizzaVegan = "Vegan"
     
-    let catNames = ["Lucy", "Tom", "Billy", "Bruce", "Lady", "Doug", "Susan"]
+    var catNames = ["Lucy", "Tom", "Billy", "Bruce", "Lady", "Doug", "Susan"]
     var numbers: [Int] = [7, 14, 6, 1, 8]
     
     func printArrays() {
         print(numbers[0])
         print(numbers[3])
+    }
+    
+    func sortArrays() {
+        catNames.sort()
+        print(catNames)
     }
 }
