@@ -10,7 +10,11 @@ import Foundation
 class PizzaIngredients {
     
     let ingredients = [
-         "Pepperoni", "Mozzarella", "Bacon", "Sausage", "Basil", "Garlic", "Onion", "Oregano", "Mushroom", "Tomato", "Red Pepper", "Ham", "Chicken", "Red Onion", "Black Olives", "Bell Pepper", "Pineapple", "Canadian Bacon", "Salami", "Jalapeño", "Spinach", "Italian Sausage", "Provolone", "Pesto", "Sun-Dried Tomato", "Feta", "Meatballs", "Prosciutto", "Cherry Tomato", "Pulled Pork", "Chorizo", "Anchovy", "Capers"
+         "Pepperoni", "Mozzarella", "Bacon", "Sausage", "Basil", "Garlic", "Onion", "Oregano",
+         "Mushroom", "Tomato", "Red Pepper", "Ham", "Chicken", "Red Onion", "Black Olives",
+         "Bell Pepper", "Pineapple", "Canadian Bacon", "Salami", "Jalapeño", "Spinach",
+         "Italian Sausage", "Provolone", "Pesto", "Sun-Dried Tomato", "Feta", "Meatballs",
+         "Prosciutto", "Cherry Tomato", "Pulled Pork", "Chorizo", "Anchovy", "Capers"
     ]
 
     func printIngredients() {
