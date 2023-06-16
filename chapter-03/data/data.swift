@@ -19,6 +19,8 @@ class Data {
     var catNames = ["Lucy", "Tom", "Billy", "Bruce", "Lady", "Doug", "Susan"]
     var numbers: [Int] = [7, 14, 6, 1, 8]
     
+    var pizzaNames = [pizzaHawaiian, pizzaCheese, pizzaMargherita, pizzaMeatlovers, pizzaVegetarian, pizzaProsciutto, pizzaVegan]
+    
     func printArrays() {
         print(numbers[0])
         print(numbers[3])
@@ -27,5 +29,10 @@ class Data {
     func sortArrays() {
         catNames.sort()
         print(catNames)
+    }
+    
+    func sortPizza() {
+        pizzaNames.sort()
+        print(pizzaNames)
     }
 }
